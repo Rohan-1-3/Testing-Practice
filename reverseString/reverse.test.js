@@ -9,7 +9,7 @@ describe("app.js", ()=>{
         expect(reverse("mom")).toBe("mom");
     });
     test("works with randomised case", ()=>{
-        expect(reverse("somEthiNg")).toBe("gnihtemos");
+        expect(reverse("somEthiNg")).toBe("gNihtEmos");
     });
     test("\"test\" becomes \"tset\"", () => {
     expect(reverse("test")).toBe("tset");
